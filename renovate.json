@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "config:base",
+    "github>aquaproj/aqua-renovate-config"
+  ],
+  "assignees": [
+    "lam4long"
+  ],
+  "assigneesSampleSize": 1,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "branchConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "versioning": "semver"
+    }
+  ]
+}
